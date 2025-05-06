@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Header styling */
+ 
   .header {
     display: flex;
     justify-content: space-between;
@@ -27,6 +27,9 @@
     font-weight: bold;
     color: #0074c2;
   }
+  .r{
+    font-size: 12px;
+  }
   
   .navbar a {
     margin-left: 20px;
@@ -38,9 +41,13 @@
   .navbar a:hover {
     color: #0074c2;
   }
+  .icon-1{
+    height: 5px;
+    width: 5px;
+  }
 
   
-  /* Hero Section */
+  
 .hero {
     position: relative;
     background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2025/03/24/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png?impolicy=fcrop&w=1920&h=580&q=medium');
@@ -56,7 +63,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.2); /* soft overlay */
+    background: rgba(0,0,0,0.2); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +78,7 @@
     margin-bottom: 20px;
   }
   
-  /* Search Bar Styling */
+  
   .search-bar {
     display: flex;
     background: white;
@@ -87,11 +94,11 @@
   
   .input-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     padding: 5px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid ;
     border-radius: 10px;
-    flex: 1;
+     flex: 1; 
     min-width: 200px;
   }
   
@@ -117,4 +124,31 @@
     cursor: pointer;
     font-size: 16px;
   }
-  
+  .article-section {
+    margin: 20px;
+    background-color:rgb(14, 5, 34);
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+  }
+  .article-section strong{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .article-section button{
+    background-color: #0072CE;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: 600;
+
+  }
