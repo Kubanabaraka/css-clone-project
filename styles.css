@@ -38,4 +38,83 @@
   .navbar a:hover {
     color: #0074c2;
   }
+
+  
+  /* Hero Section */
+.hero {
+    position: relative;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2025/03/24/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png?impolicy=fcrop&w=1920&h=580&q=medium');
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    color: white;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2); /* soft overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar Styling */
+  .search-bar {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 900px;
+    align-items: center;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .input-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .input-box label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 3px;
+  }
+  
+  .search-btn {
+    background-color: #0072CE;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
   
