@@ -125,7 +125,9 @@
     font-size: 16px;
   }
   .article-section {
-    margin: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
     background-color:rgb(14, 5, 34);
     display: flex;
     height: 5rem;
@@ -152,3 +154,80 @@
     font-weight: 600;
 
   }
+  .article1{
+    margin-left: 120px;
+    margin-top: 30px;
+    color: rgb(14, 5, 34);;
+    font-size: 18px;}
+    .accommodation-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;  
+      }
+      
+      .accommodation-image {
+        position: relative;
+      
+        flex: 0 0 calc((100% - 40px) / 5);
+        box-sizing: border-box;
+      }
+      
+      .accommodation-image img {
+        width: 100%;
+        height: 250px;
+        border: none;
+        border-radius: 10px;
+        display: block;
+        margin-left: 40px;
+      }
+      
+      .text-on-image {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        right: 10px;
+        color: #fff;
+        padding: 5px;
+        font-size: 1em;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+
+      
+    .accommodation-images1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;  
+        gap: 50px;
+        padding-left: 0px;
+      }
+      
+      .accommodation-image1 {
+        position: relative;
+      
+        flex: 0 0 calc((100% - 40px) / 5);
+        box-sizing: border-box;
+      }
+      
+      .accommodation-image1 img {
+        width: 110%;
+        height: 300px;
+        border: none;
+        border-radius: 10px;
+        display: block;
+        
+      }
+      .acc-li{
+        display: flex;
+      }
+      
